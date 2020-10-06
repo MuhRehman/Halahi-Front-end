@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+
+    <title>Halahi</title>
+</head>
+<body>
+    
+<header>
+  
+      <nav class="desktop-nav-bar navbar navbar-expand-lg navbar-light d-flex justify-content-between nav-bg-color mobile-bar-flow" >
+    
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Logo" >
+        </a>
+      
+        <div class=" navbar-collapse   border-warning" id="navbarTogglerDemo03">
+        
+            <form action="#" method="#" role="search" class="mobile-input">
+              <div class="input-group">
+              <input class="form-control custom-form-control " placeholder="Search .." name="srch-term" id="ed-srch-term" type="text">
+              <div class="input-group-btn">
+              <button type="submit" id="searchbtn">
+                <i class="fa fa-search " style="color: #A5A5A5!important; padding: 5px;"></i> </button>
+              </div>
+              </div>
+              </form>
+
+            <div class=" d-none d-sm-block  btn categorie-btn category-btn  ml-auto mr-auto" style="background-color: #707070!important;">
+              All Categories
+            </div>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0   ">
+            <li class="nav-item active">
+              <a class="nav-link d-none d-sm-block" href="#">Actors <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-none d-sm-block" href="#">Comedians <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-none d-sm-block" href="#">Models <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-none d-sm-block" href="#">Musicians <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-none d-sm-block" href="#">Business <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-none d-sm-block" href="#">Youtubers <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </li>
+           
+          </ul>
+
+
+          <div  class="category-btn d-none d-sm-block" >
+            <ul class="row" >
+          <li class="nav-item mt-2" style="list-style: none;">
+            <a style="background-color: rgb(52, 182, 208);"  class="  pt-2 pb-2 pr-3 pl-3 brand-btn mt-1 mr-2 top-bar-btn" href="#">ENROL AS TALENT</a>
+          </li>
+          <li class="nav-item mt-2 mr-2" style="list-style: none;">
+            <a  href="#" class=" pt-2 pb-2 brand-btn pr-3 pl-3 mt-1 mr-auto top-bar-btn"
+               target="_blank" style="background-color: rgb(223, 29, 115);">FOR BRANDS <i  class="fa fa-external-link" style="font-weight: bold;"></i></a></li>
+          </ul>
+        </div>
+        
+      </div>
+      <div class="navbar-icon"><div class="home-icon text-center"><i class="fa fa-home" style="font-size:28px;color:rgb(255, 255, 255)"></i></div></div>
+      </nav>
+      <!-- <nav  class="mobile-nav-bar" >
+        <div class="container">
+
+        
+        <div class="row">
+          <div class="col-2">
+            <a class="navbar-brand mobile-brand text-center " href="#">
+              <img src="img/logo.png" alt="Logo" style="width:40px;">
+            </a>
+          
+          </div>
+          <div class="col-8">
+            <form action="#" method="#" role="search" class="mobile-input">
+              <div class="input-group ">
+              <input class="form-control custom-form-control " placeholder="Search your Celebrity" name="srch-term" id="ed-srch-term" type="text">
+              <div class="input-group-btn">
+              <button type="submit" id="searchbtn">
+                <i class="fa fa-search " style="color: #A5A5A5!important; padding: 5px;"></i> </button>
+              </div>
+              </div>
+              </form>
+          </div>
+          <div class="col-2"><div class="home-icon text-center"><i class="fa fa-home" style="font-size:28px;color:rgb(255, 255, 255)"></i></div></div>
+        </div>
+        </div>
+      
+      </nav> -->
+</header>
+<header  class="category-header">
+  <div  style="width: 100%;">
+  <section _ngcontent-kxk-c62="" class="signup-banner clearfix"><div _ngcontent-kxk-c62="" class="container">
+    <div _ngcontent-kxk-c62="" class="row justify-content-between" style="padding-left: 10px;">
+      
+      
+      <div class="col-xl-6 col-md-7 align-self-center">
+<div class="inner-content mt-4 mb-5">
+
+  <h1 > 
+  <span style="color: #DF1D73;" class="inner-heading top-heading"> SURPRISE</span><br>
+  <span style="color: #000000;" class="inner-heading middle-heading">YOUR FANS + BRANDS</span><br>
+  <span style="color: #34B6D0;"  class="inner-heading bottom-heading banner-heading">&  EARN MONEY</span>
+  </h1>
+  
+  <p class="inner-heading">HalaHi lets you send personal and unique video messages to
+    your fans that leaves them with memories for a lifetime. All while you earn money and have crazy fun.
+    What are you waiting for? Let's send your fans a surprise!</p>
+    <div class="bottom-area row">
+      <div class=" img-logo"><img src="img/android.png" alt=""></div>
+      <div class=" img-logo"><img src="img/applestore.png" alt=""></div>
+      <button class="btn  enrol-btn  btn-inner-text ml-4 mt-2">ENROLL NOW</button>
+    </div>
+  </div>
+              </div>
+      <div class="col-xl-6 col-md-7 align-self-center">
+<div class="inner-content-right mt-4 ">
+<img src="img/banner-inner.png" alt="" >
+  </div>
+              </div>
+            
+            </div></section></div>
+            </header>
+
+    
+<section class="card-area" style="background-color:white ;">
+  <div class="container pt-5 pb-5">
+    <div class="card-deck ">
+   
+        <div class="card border-0 text-center card-size" >
+          <img class="card-img-top" src="img/Group 24.png" alt="Card image cap" >
+          <div class="card-body">
+            <h5 class="card-title">Keep it simple</h5>
+            <hr class="rounded">
+            <p class="card-text">Record your video message anywhere - at any time! Whether you are in the airport, taking an Uber, going for a stroll or even lying in bed. All of your videos are delivered straight through the HalaHi web.</p>
+            
+       
+        </div>
+      </div>
+
+        <div class="card border-0 text-center card-size" >
+          <img class="card-img-top" src="img/cash.png" alt="Card image cap" >
+          <div class="card-body">
+            <h5 class="card-title">Earn Cash</h5>
+            <hr class="rounded">
+            <p class="card-text">Earn anywhere between $20 to $500 for a single video that takes you less than 30 seconds. You set your own price and can even donate the money to your favourite charity.</p>
+            
+   
+        </div>
+      </div>
+
+      <div class="card border-0 text-center card-size" >
+        <img class="card-img-top" src="img/Group 24.png" alt="Card image cap" >
+        <div class="card-body">
+          <h5 class="card-title">Blow Your Fans Away</h5>
+          <hr class="rounded">
+          <p class="card-text">Fans on HalaHi will be blown away by your message! A viral video that will allow you to connect with your fans like never before and grow you brand.</p>
+          
+ 
+      </div>
+     </div>
+    </div>
+  </div>
+
+</section>
+<section class="howitwork" style="background-color:#FBFBFB">
+ <div class="container ">
+   <div class="row pb-5">
+     <div class="col-md-6 ">
+         <div  class="bar-content mt-5 pt-3 bar-area ">
+        
+         <div class="col-1 "> <img class="bar-img" style=""
+            src="img/money-bag_1f4b0.png" alt=""></div>
+   <div class="col-11 bar-text">
+    <div>
+       <img class="mobile-bar-img" style=""
+      src="img/money-bag_1f4b0.png" alt=""></div>
+     <p class="">
+     Keep <span style="color: #008CFF;"> 75% of your earnings,</span> and get paid every 30 days
+    </p>
+  </div>
+         </div>
+         <div 
+              class="bar-content mt-5 pt-3 bar-area">
+        
+         <div class="col-1"> <img class="bar-img" 
+            src="img/icon2.png" alt=""></div>
+   <div class="col-11 bar-text">
+    <div>
+      <img class="mobile-bar-img" style=""
+     src="img/icon2.png" alt=""></div>
+    <p class="">Only do the request  <span style="color: #008CFF;"> you want to do</span></p></div>
+         </div>
+         <div 
+              class="bar-content mt-5 pt-3 bar-area">
+        
+         <div class="col-1"> <img class="bar-img"
+            src="img/icon3.png" alt=""></div>
+   <div class="col-11 bar-text">
+    <div>
+      <img class="mobile-bar-img" style=""
+     src="img/icon3.png" alt=""></div>
+     <p class=""> <span style="color: #008CFF;">Set your own price, </span> and change it whenever you want</p>
+    </div>
+         </div>
+         <div 
+              class="bar-content mt-5 pt-3 bar-area">
+        
+         <div class="col-1"> <img class="bar-img"
+            src="img/icon4.png" alt=""></div>
+   <div class="col-11 bar-text">
+    <div>
+      <img class="mobile-bar-img" style=""
+     src="img/icon4.png" alt=""></div> 
+    <p class="">Share <span style="color: #008CFF;"> incredible memories </span> with your fans</p></div>
+  
+         </div>
+         <div 
+              class="bar-content mt-5 pt-3 bar-area">
+        
+         <div class="col-1"> <img class="bar-img"
+            src="img/icon5.png" alt=""></div>
+   <div class="col-11 bar-text">
+    <div>
+      <img class="mobile-bar-img" style=""
+     src="img/icon5.png" alt=""></div> 
+    <p class="">Just<span style="color: #008CFF;">  10-30 seconds </span> of your time for each video</p>
+
+      </div>
+         </div>
+
+
+
+     </div>
+     <div class="col-md-6 halamobile-img text-center"><img class=" pb-5"  src="img/mobile1.png" alt=""></div>
+   </div>
+ </div>
+
+</section>
+
+<section class="brand-av">
+<div class="container">
+  <div class="row justify-content-center pt-1 pb-2">
+    <div class="col-12 col-md-7  ">
+    <div class="justify-content-left become-a" style="padding-top: 33px;">
+      <h2>Become a brand-advocate. Collaborate with renowned brands.</h2>
+      <p style="padding-right: 80px;">Receive direct collaboration requests from some of the world’s top brands. Straight to your HalaHi app! And the best part? You keep 100% of the revenue generated from your deals. No middle-men. Just you and the brand. Like it should be.</p>
+    </div>
+    </div>
+    <div class="col-12 col-md-5 tag-images"><img   class="img-fluid" style="padding-top: 33px; padding-bottom: 33px;" src="img/download.png" alt=""></div>
+  </div>
+</div>
+</section>
+<section class="howitwork" style="background-color:#FBFBFB">
+  <div class="container ">
+    <div class="row pb-5">
+      <div class="col-12 col-md-6 work-img text-center"><img class=" pb-5 pt-3" style="" src="img/backwhite.png" alt=""></div>
+  
+      <div class="col-md-6 ">
+        <div  class="bar-content mt-5 pt-3 bar-area ">
+       
+        <div class="col-1 "> <img class="bar-img" style=""
+           src="img/money-bag_1f4b0.png" alt=""></div>
+  <div class="col-11 bar-text">
+   <div>
+      <img class="mobile-bar-img" style=""
+     src="img/money-bag_1f4b0.png" alt=""></div>
+     <p class="">Keep <span style="color: #008CFF;"> 100% of your earnings,</span> and get paid every 30 days</p>
+ </div>
+        </div>
+        <div 
+             class="bar-content mt-5 pt-3 bar-area">
+       
+        <div class="col-1"> <img class="bar-img" 
+           src="img/icon2.png" alt=""></div>
+  <div class="col-11 bar-text">
+   <div>
+     <img class="mobile-bar-img" style=""
+    src="img/icon2.png" alt=""></div>
+    <p class="">  <span style="color: #008CFF;">Set your own price for</span>your various social media collaborations</p>
+
+  </div>
+        </div>
+        <div 
+             class="bar-content mt-5 pt-3 bar-area">
+       
+        <div class="col-1"> <img class="bar-img"
+           src="img/icon3.png" alt=""></div>
+  <div class="col-11 bar-text">
+   <div>
+     <img class="mobile-bar-img" style=""
+    src="img/icon3.png" alt=""></div>
+    <p class="">Receive collaboration requests <span style="color: #008CFF;"> straight to your HalaHi app </span> </p>
+   </div>
+        </div>
+        <div 
+             class="bar-content mt-5 pt-3 bar-area">
+       
+        <div class="col-1"> <img class="bar-img"
+           src="img/icon4.png" alt=""></div>
+  <div class="col-11 bar-text">
+   <div>
+     <img class="mobile-bar-img" style=""
+    src="img/icon4.png" alt=""></div> 
+    <p class="">No escrow - get paid by the <span style="color: #008CFF;"> end of every month  </span></p>
+  </div>
+ 
+        </div>
+        <div 
+             class="bar-content mt-5 pt-3 bar-area">
+       
+        <div class="col-1"> <img class="bar-img"
+           src="img/icon5.png" alt=""></div>
+  <div class="col-11 bar-text">
+   <div>
+     <img class="mobile-bar-img" style=""
+    src="img/icon5.png" alt=""></div> 
+    <p class="">Just<span style="color: #008CFF;">  10-30 seconds </span> of your time for each video</p>
+
+     </div>
+        </div>
+
+
+
+    </div>
+      <!-- <div class="col-6">
+          <div style=" 
+          padding: 12px;
+            border-radius: 135px;
+            box-shadow: 5px 10px 18px #d6d4d4;"
+               class="bar-content mt-5 pt-3 ">
+         
+          <div class="col-1"> <img class="bar-img"
+             src="img/money-bag_1f4b0.png" alt=""></div>
+    <div class="col-9 bar-text">
+      <p class="">Keep <span style="color: #008CFF;"> 100% of your earnings,</span> and get paid every 30 days</p>
+    </div>
+          </div>
+          <div style=" 
+          padding: 12px;
+            border-radius: 135px;
+            box-shadow: 5px 10px 18px #d6d4d4;"
+               class="bar-content mt-5 pt-3 ">
+         
+          <div class="col-1"> <img class="bar-img"
+             src="img/icon2.png" alt=""></div>
+    <div class="col-11 bar-text">
+      <p class="">  <span style="color: #008CFF;">Set your own price for</span>your various social media collaborations</p>
+    </div>
+          </div>
+          <div style=" 
+          padding: 12px;
+            border-radius: 135px;
+            box-shadow: 5px 10px 18px #d6d4d4;"
+               class="bar-content mt-5 pt-3 ">
+         
+          <div class="col-1"> <img class="bar-img"
+             src="img/icon3.png" alt=""></div>
+    <div class="col-11 bar-text">
+      <p class="">Receive collaboration requests <span style="color: #008CFF;"> straight to your HalaHi app </span> </p>
+     </div>
+          </div>
+          <div style=" 
+          padding: 12px;
+            border-radius: 135px;
+            box-shadow: 5px 10px 18px #d6d4d4;"
+               class="bar-content mt-5 pt-3 ">
+         
+          <div class="col-1"> <img class="bar-img"
+             src="img/icon4.png" alt=""></div>
+    <div class="col-11 bar-text">
+      <p class="">No escrow - get paid by the <span style="color: #008CFF;"> end of every month  </span></p>
+    </div>
+   
+          </div>
+          <div style=" 
+          padding: 12px;
+            border-radius: 135px;
+            box-shadow: 5px 10px 18px #d6d4d4;"
+               class="bar-content mt-5 pt-3 ">
+         
+          <div class="col-1"> <img class="bar-img"
+             src="img/icon5.png" alt=""></div>
+    <div class="col-11 bar-text">
+       <p class="">Just<span style="color: #008CFF;">  10-30 seconds </span> of your time for each video</p>
+ 
+       </div>
+          </div>
+ 
+ 
+ 
+      </div> -->
+    
+    </div>
+  </div>
+ 
+ </section>
+<section class="card-men" style="background-color:white;">
+<section class="container  text-center pt-5 pb-5 good-company">
+<h1>You're in good company</h1>
+<p style="color: #707070;">Join a world-class roster of amazing talent</p>
+<div class="card-deck mt-4 pt-5">
+  <div class="card border-0 actor-card-size" style="">
+    <img class="card-img-top1" src="img/Cele1.png" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Keep it simple</h5>
+    
+    </div>
+    </div>
+  <div class="card border-0 actor-card-size" >
+    <img class="card-img-top1" src="img/Cele2.png" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Keep it simple</h5>
+    
+    </div>
+    </div>
+  <div class="card border-0 actor-card-size" >
+    <img class="card-img-top1" src="img/Cele3.png" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Keep it simple</h5>
+    
+    </div>
+    </div>
+  <div class="card border-0 actor-card-size" >
+    <img class="card-img-top1" src="img/Cele4.png" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Keep it simple</h5>
+    
+    </div>
+    </div>
+ 
+  </div>
+<div class="card-deck mt-4 ">
+  <div class="card border-0 actor-card-size" >
+    <img class="card-img-top1" src="img/Cele5.png" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Keep it simple</h5>
+    
+    </div>
+    </div>
+  <div class="card border-0 actor-card-size" >
+    <img class="card-img-top1" src="img/Cele6.png" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Keep it simple</h5>
+    
+    </div>
+    </div>
+  <div class="card border-0 actor-card-size" >
+    <img class="card-img-top1" src="img/Cele7.png" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Keep it simple</h5>
+    
+    </div>
+    </div>
+  <div class="card border-0 actor-card-size" >
+    <img class="card-img-top1" src="img/Cele8.png" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Keep it simple</h5>
+    
+    </div>
+    </div>
+ 
+  </div>
+  </div>
+</section>
+
+<footer class="" style="background-color:black;">
+<div class="container">
+  <div class="footer-content text-center pt-5 pb-5">
+    <h1>Create unforgettable memories.<br>
+      Make hard earned cash. Spread love <i class="fa fa-heart" style="font-size:48px;color:red"></i></h1>
+      <button class="btn footer-btn"> ENROLL NOW  </button>
+  </div>
+</div>
+
+</footer>
+</body>
+</html>
